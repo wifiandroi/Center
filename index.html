@@ -1,0 +1,78 @@
+<style type="text/css">
+	main{
+		border: 1px solid red;
+		min-height: 10vh;
+		margin-bottom: 1em;
+		display: flex;
+		flex-direction:column;
+		align-items:center;
+		justify-content: center;
+	}
+</style>
+
+<main>
+	<div>
+		Centro I
+	</div>
+</main>
+
+<!-- ##################### -->
+<style type="text/css">
+	.container{
+		border: 1px solid blue;
+		min-height: 10vh;
+		margin-bottom: 1em;
+
+		position: relative;
+	}	
+	.container div{
+		width: 120px;
+		background-color:tomato ;
+		inset: 0;
+				position: absolute;
+		margin: 0 auto;
+	}
+</style>
+
+
+<div class="container">
+	<div>
+		Centro II
+	</div>
+</div>
+
+<!-- ##################### -->
+<style type="text/css">
+	.contenido{
+		border: 1px solid orange;
+		min-height: 10vh;
+		margin-bottom: 1em;
+
+
+	  display: grid;
+	  grid-template-rows: 1fr; /* Una fila con altura flexible */
+	  grid-template-columns: 1fr; /* Una columna con ancho flexible */
+
+
+	}
+	.contenido div{
+		max-width: 400px;
+		height: auto;
+
+       justify-self: center; /* Centra horizontalmente el elemento */
+      align-self: center; /* Centra verticalmente el elemento */
+
+
+	}	
+	.contenido div img{
+		max-width: 100%;
+		height: auto;
+	}	
+</style>
+
+
+<div class="contenido">
+	<div>
+		<img src="https://1000marcas.net/wp-content/uploads/2020/02/Logotipo-negro-de-YouTube.png">
+	</div>
+</div>
